@@ -15,6 +15,7 @@ import {
 } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { Link, useNavigate } from 'react-router-dom';
+import logo from '../../assets/image.png'
 
 export default function AuthRegister() {
   const [showPassword, setShowPassword] = useState(false);
@@ -83,7 +84,7 @@ export default function AuthRegister() {
       <Box sx={{ width: '100%', maxWidth: 520, bgcolor: '#fff', borderRadius: 2, boxShadow: '0 8px 24px rgba(0,0,0,0.08)', p: { xs: 3, sm: 4 } }}>
         {/* Logo + Heading */}
         <Box textAlign="center" mb={2}>
-          <img src="https://codedthemes.com/wp-content/uploads/2021/09/berry-logo.svg" alt="Berry Logo" width={36} />
+          <img src={logo} alt="Berry Logo" width={56} height={56}/>
           <Typography variant="h4" sx={{ fontWeight: 700, mt: 1, color: 'text.primary' }}>
             Sign up
           </Typography>

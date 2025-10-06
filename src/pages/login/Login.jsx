@@ -5,16 +5,10 @@ import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-
-// project imports
-import AuthWrapper1 from './AuthWrapper1';
-import AuthCardWrapper from './AuthCardWrapper';
 import AuthLogin from '../auth-forms/AuthLogin';
 
 import Logo from 'ui-component/Logo';
 import AuthFooter from 'ui-component/cards/AuthFooter';
-
-// ================================|| AUTH3 - LOGIN ||================================ //
 
 export default function Login() {
   const downMD = useMediaQuery((theme) => theme.breakpoints.down('md'));

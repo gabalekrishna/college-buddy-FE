@@ -16,6 +16,7 @@ import {
 } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/image.png'
 
 export default function AuthLogin() {
   const [showPassword, setShowPassword] = useState(false);
@@ -80,7 +81,7 @@ export default function AuthLogin() {
       >
       {/* Logo */}
       <Box textAlign="center" mb={2}>
-        <img src="https://codedthemes.com/wp-content/uploads/2021/09/berry-logo.svg" alt="Berry Logo" width={36} />
+        <img src={logo} alt="Berry Logo" width={36} />
         <Typography variant="h4" sx={{ fontWeight: 700, mt: 1, color: 'text.primary' }}>
           Hi, Welcome Back
         </Typography>
